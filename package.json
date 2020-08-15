@@ -2,6 +2,7 @@
     "name": "inbox",
     "version": "0.1.4",
     "author" : "Andris Reinman",
+    "repository": "git://github.com:claryaldringen/inbox.git"
     "maintainers":[
         {
             "name":"andris",
@@ -15,13 +16,15 @@
         "mimelib": "*"
     },
     
-    "devDependencies": {
+    "devDependencies": { 
         "nodeunit": "*"
     },
     
-    "scripts":{
+    "scripts": {
         "test": "nodeunit test"
     }
     
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+    "publishConfig": { 
+        "registry": "https://npm.pkg.github.com/" 
+    }
 }
