@@ -22,4 +22,6 @@
     "scripts":{
         "test": "nodeunit test"
     }
+    
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
